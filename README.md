@@ -9,4 +9,11 @@ Below are the command that will using for install trivy on linux vm..
     sudo apt-get update
     sudo apt-get install trivy
 
-We can run docker container for postee that will get report and send it to configure endpoint 
+
+    trivy --version
+
+with trivy we can generate vurnability report of **images**, **kubernetes** and many more..
+
+We can run docker container for **postee** that will get report and send it to configure endpoint.. 
+
+or you can use jenkins that will get and send report via email 
