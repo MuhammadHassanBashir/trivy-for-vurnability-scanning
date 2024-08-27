@@ -46,5 +46,14 @@ now refresh the group
 
     now run the script. the script will pull images from docker and with trivy it will be finding vurnability...
 
+Download files from remote vm
+
+    command will execute from local desktop terminal
+    
+    scp -r hassan@34.133...:/home/hassan/output.txt /tmp
+
+    scp -r vm-user@vm-publicip:remote-vm-file-location local-location-where-you need to download file..
+
+
 
     
